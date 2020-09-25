@@ -1,4 +1,9 @@
-#include <stdio.h>
+
 #include <stdlib.h>
-char ch[] = "你好！";
-printf("%s\n", ch);
+#include "stdio.h"
+void main(void)
+{
+	char ch[] = { "你好，陌生人！" };
+	printf("%s\n", ch);
+	system("pause");
+}

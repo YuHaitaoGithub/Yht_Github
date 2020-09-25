@@ -3,7 +3,7 @@
 #include "stdio.h"
 void main(void)
 {
-	char ch[] = { "你好，陌生人！" };
+	char ch[] = { "你好，世界！" };
 	printf("%s\n", ch);
 	system("pause");
 }

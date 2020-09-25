@@ -3,7 +3,7 @@
 #include "stdio.h"
 void main(void)
 {
-	char ch[] = {"I Iove you"};
+	char ch[] = { "ÄãºÃ£¬ÊÀ½ç£¡" };
 	printf("%s\n", ch);
 	system("pause");
 }

@@ -1,4 +1,9 @@
-#include <stdio.h>
+
 #include <stdlib.h>
-char ch[] = "ÄãºÃ£¡";
-printf("%s\n", ch);
+#include "stdio.h"
+void main(void)
+{
+	char ch[] = { "ÄãºÃ£¡" };
+	printf("%s\n", ch);
+	system("pause");
+}
